@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{7773BDD8-037E-46DB-B842-B0EE41E74873}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SomeMod.cs">
+    <Files>
+      <File FileName="SomeMod.cs" Line="19" Column="1" />
+      <File FileName="../../../../Steam/steamapps/common/Terraria/:Users:mikolaj:Library:Application Support:Terraria:ModLoader:Mod Sources:SomeMod:NewMod.cs" Line="19" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Windows" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SomeMod PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

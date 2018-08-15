@@ -1,0 +1,4 @@
+author = Miki
+version = 0.1
+displayName = MPMonsters
+noCompile = true

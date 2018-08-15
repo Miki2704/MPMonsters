@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{7773BDD8-037E-46DB-B842-B0EE41E74873}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SomeMod.cs">
+    <Files>
+      <File FileName="SomeMod.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExampleMod_OSX_Blank" expanded="True">
+            <Node name="SomeMod" expanded="True">
+              <Node name="SomeMod.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Mono" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SomeMod PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

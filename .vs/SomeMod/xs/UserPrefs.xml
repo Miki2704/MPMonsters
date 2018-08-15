@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{7773BDD8-037E-46DB-B842-B0EE41E74873}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Items/Weapons/ControlSword.cs">
+    <Files>
+      <File FileName="Items/Ores/ControlOre.cs" Line="25" Column="55" />
+      <File FileName="Items/Tiles/ControlOreTile.cs" Line="18" Column="13" />
+      <File FileName="Items/Bars/ControlBar.cs" Line="15" Column="36" />
+      <File FileName="WorldThing.cs" Line="36" Column="20" />
+      <File FileName="SomeMod.cs" Line="19" Column="8" />
+      <File FileName="Items/Weapons/ControlRod1.cs" Line="14" Column="30" />
+      <File FileName="Items/Tiles/ControlStationTile.cs" Line="32" Column="82" />
+      <File FileName="Items/MiscPlaceable/ControlStation.cs" Line="6" Column="38" />
+      <File FileName="Items/Tiles/Tile.cs" Line="1" Column="1" />
+      <File FileName="Items/Weapons/ControlSword.cs" Line="34" Column="51" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Mono" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SomeMod PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

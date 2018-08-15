@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7773BDD8-037E-46DB-B842-B0EE41E74873}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>SomeMod</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Mono|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType></DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Mono</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>AfterBuild</type>
+          <command>cp bin/${ProjectConfigName}/${TargetName} ${ProjectConfigName}.dll</command>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Windows|AnyCPU' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>AfterBuild</type>
+          <command>cp bin/${ProjectConfigName}/${TargetName} ${ProjectConfigName}.dll</command>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ExampleMod</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+  <Reference Include="FNA" Condition="'$(Configuration)' == 'Mono'">
+    <HintPath>..\..\..\..\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\FNA.dll</HintPath>
+    <Private>False</Private>
+  </Reference>
+  <Reference Include="Microsoft.Xna.Framework" Condition="'$(Configuration)' == 'Windows'">
+    <HintPath>..\..\..\..\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\Microsoft.Xna.Framework.dll</HintPath>
+    <Private>False</Private>
+  </Reference>
+  <Reference Include="Microsoft.Xna.Framework.Game" Condition="'$(Configuration)' == 'Windows'">
+    <HintPath>..\..\..\..\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\Microsoft.Xna.Framework.Game.dll</HintPath>
+    <Private>False</Private>
+  </Reference>
+  <Reference Include="Microsoft.Xna.Framework.Graphics" Condition="'$(Configuration)' == 'Windows'">
+    <HintPath>..\..\..\..\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    <Private>False</Private>
+  </Reference>
+  <Reference Include="Microsoft.Xna.Framework.Xact" Condition="'$(Configuration)' == 'Windows'">
+    <HintPath>..\..\..\..\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\Microsoft.Xna.Framework.Xact.dll</HintPath>
+    <Private>False</Private>
+  </Reference>
+  <Reference Include="tModLoaderWindows" Condition="'$(Configuration)' == 'Windows'">
+    <HintPath>..\..\..\..\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\tModLoaderWindows.exe</HintPath>
+    <Private>False</Private>
+  </Reference>
+  <Reference Include="Terraria" Condition="'$(Configuration)' == 'Mono'">
+    <HintPath>..\..\..\..\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\Terraria.exe</HintPath>
+  </Reference>
+  <Reference Include="ReLogic" Condition="'$(Configuration)' == 'Windows'">
+    <HintPath>..\..\..\..\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\ReLogic.dll</HintPath>
+  </Reference>
+  <Reference Include="ReLogicLinux" Condition="'$(Configuration)' == 'Mono'">
+    <HintPath>..\..\..\..\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\ReLogicLinux.dll</HintPath>
+  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build.txt" />
+    <Content Include="description.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="SomeMod.cs" />
+    <Compile Include="Items\Weapons\ControlSword.cs" />
+    <Compile Include="Items\Ores\ControlOre.cs" />
+    <Compile Include="Items\Tiles\ControlOreTile.cs" />
+    <Compile Include="Items\Bars\ControlBar.cs" />
+    <Compile Include="Items\Tiles\ControlBarTile.cs" />
+    <Compile Include="WorldThing.cs" />
+    <Compile Include="Items\Weapons\ControlRod1.cs" />
+    <Compile Include="Items\Tiles\ControlStationTile.cs" />
+    <Compile Include="Items\MiscPlaceable\ControlStation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\" />
+    <Folder Include="Items\Weapons\" />
+    <Folder Include="Items\Ores\" />
+    <Folder Include="Items\Tiles\" />
+    <Folder Include="Items\Bars\" />
+    <Folder Include="Items\MiscPlaceable\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

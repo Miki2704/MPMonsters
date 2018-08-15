@@ -1,0 +1,5 @@
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Windows/SomeMod.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Windows/ReLogic.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/obj/Windows/SomeMod.csprojResolveAssemblyReference.cache
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/obj/Windows/SomeMod.csproj.CoreCompileInputs.cache
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/obj/Windows/SomeMod.dll

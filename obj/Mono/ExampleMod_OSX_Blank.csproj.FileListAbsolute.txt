@@ -1,0 +1,16 @@
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/obj/Mono/ExampleMod_OSX_Blank.csprojResolveAssemblyReference.cache
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/obj/Mono/ExampleMod_OSX_Blank.csproj.CoreCompileInputs.cache
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/SomeMod.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/ReLogicLinux.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/Terraria.exe
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/Ionic.Zip.Reduced.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/Mono.Cecil.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/MP3Sharp.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/System.Drawing.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/WindowsBase.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/System.Windows.Forms.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/Mono.Posix.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/System.Data.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/System.Numerics.dll
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/bin/Mono/Terraria.exe.config
+/Users/mikolaj/Library/Application Support/Terraria/ModLoader/Mod Sources/SomeMod/obj/Mono/SomeMod.dll
